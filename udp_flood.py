@@ -3,7 +3,8 @@ import socket
 import random
 sent=0
 
-from Tools.scripts.treesync import raw_input
+input = raw_input   
+                
 
 sock=socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
 bytes=random._urandom(1024)
