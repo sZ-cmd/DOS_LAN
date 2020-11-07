@@ -6,4 +6,9 @@ hope you like it. :)
 
 How to Run:
 simple just open "udp_flood.py" and give the ip of the intended machine(victim) and specify a port.
-Don't be too Evil :)
+**********************************************************************************
+ * * * * * DISCLAIMER: ANY MALICIOUS USE OF THE CONTENTS FROM THIS ARTICLE * * * * 
+ * * * * * WILL NOT HOLD THE AUTHOR RESPONSIBLE, THE CONTENTS ARE SOLELY FOR * * *  
+ * * * * * EDUCATIONAL PURPOSE * * * * * *****************************************
+**********************************************************************************
+
